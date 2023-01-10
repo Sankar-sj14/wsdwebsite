@@ -1,0 +1,28 @@
+<div>
+    <h1 style="height: 1rem;background-color: blue;"></h1>
+    <div class="container-fluid px-5 py-3">
+        <table class="table table-borderless table-hover container-fluid">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>genre</th>
+                    <th>nationality</th>
+                    <th>birthyear</th>
+                    <th>deathyear</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="emp in employees">
+                <tr>
+                    <td>{{emp.id}}</td>
+                    <td>{{emp.name|lowercase}}</td>
+                    <td>{{emp.genre|lowercase}}</td>
+                    <td>{{emp.nationality|lowercase}}</td>
+                    <td>{{emp.birthYear|lowercase}}</td>
+                    <td>{{emp.deathYear|uppercase}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
