@@ -1,0 +1,55 @@
+[{
+        "id": 1,
+        "name": "Pablo Picasso",
+        "genre": "Cubism",
+        "nationality": "Spanish",
+        "birthYear": 1881,
+        "deathYear": 1973
+
+    },
+    {
+        "id": 2,
+        "name": "Vincent van Gogh",
+        "genre": "Post-Impressionism",
+        "nationality": "Dutch",
+        "birthYear": 1853,
+        "deathYear": 1890
+
+    },
+    {
+        "id": 3,
+        "name": "Leonardo da Vinci",
+        "genre": "Renaissance",
+        "nationality": "Italian",
+        "birthYear": 1452,
+        "deathYear": 1519
+
+    },
+    {
+        "id": 4,
+        "name": "Michelangelo",
+        "genre": "Renaissance",
+        "nationality": "Italian",
+        "birthYear": 1475,
+        "deathYear": 1564
+
+    },
+    {
+        "id": 5,
+        "name": "Frida Kahlo",
+        "genre": "Surrealism",
+        "nationality": "Mexican",
+        "birthYear": 1907,
+        "deathYear": 1954
+
+    },
+    {
+        "id": 6,
+        "name": "Salvador Dali",
+        "genre": "Surrealism",
+        "nationality": "Spanish",
+        "birthYear": 1904,
+        "deathYear": 1989
+
+    }
+]
