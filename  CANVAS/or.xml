@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="or.xsl"?>
+<!DOCTYPE orders [
+<!ELEMENT order (orderid,author,from,to)>
+<!ELEMENT orderid (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+]>
+
+<orders>
+
+  <order>
+    <orderid>1</orderid>
+    <author>1231231</author>
+    <from>coimbatore</from>
+    <to>bhiwandi</to>
+  </order>
+
+  <order>
+    <orderid>2</orderid>
+    <author>1231232</author>
+    <from>mumbai</from>
+    <to>surat</to>
+  </order>
+
+  <order>
+    <orderid>3</orderid>
+    <author>1231323</author>
+    <from>andra</from>
+    <to>chennai</to>
+  </order>
+
+<order>
+    <orderid>4</orderid>
+    <author>1231234</author>
+    <from>madurai</from>
+    <to>coimbatore</to>
+  </order>
+
+  <order>
+    <orderid>5</orderid>
+    <author>1231235</author>
+    <from>madurai</from>
+    <to>chennai</to>
+  </order>
+
+  <order>
+    <orderid>6</orderid>
+    <author>1231236</author>
+    <from>coimbatore</from>
+    <to>jammu</to>
+  </order>
+
+  <order>
+    <orderid>7</orderid>
+    <author>1231237</author>
+    <from>surat</from>
+    <to>jammu</to>
+  </order>
+
+  <order>
+    <orderid>8</orderid>
+    <author>1231238</author>
+    <from>surat</from>
+    <to>coimabtore</to>
+  </order>
+
+  <order>
+    <orderid>9</orderid>
+    <author>1231239</author>
+    <from>salem</from>
+    <to>coimbatore</to>
+  </order>
+
+  <order>
+    <orderid>10</orderid>
+    <author>1231241</author>
+    <from>tiruppur</from>
+    <to>salem</to>
+  </order>
+  
+
+  
+
+
+</orders>

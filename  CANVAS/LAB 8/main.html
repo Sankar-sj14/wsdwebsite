@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/component.css">
+	
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+    <style>
+        ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: #cacbcc;
+          overflow-inline: hidden;
+        }
+        
+        li {
+          float: right;
+        }
+        
+        li a {
+          display: block;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: rgb(92, 90, 90);
+        }
+        </style>
+</head>
+<body>
+<ul class="#new">
+    <li><a href="#blog">CONNECT</a></li>
+    <li><a href="#about">GALLERY</a></li>
+    <li><a class="active" href="#/">HOME</a></li>
+</ul>
+  
+
+<ng-view></ng-view>
+
+<script src="app.js"></script>
+</body>
+</html>
